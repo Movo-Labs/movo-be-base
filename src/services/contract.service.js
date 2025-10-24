@@ -545,7 +545,7 @@ export async function registerInvoiceOnchain(
       hash: txHash,
     });
     logger.info(`Transaction confirmed in block: ${receipt.blockNumber}`);
-
+    //
     return {
       success: true,
       txHash,
